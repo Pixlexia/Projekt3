@@ -1,0 +1,145 @@
+@font-face {
+    font-family: futrfw;
+    src: url(/assets/fonts/FUTRFW.TTF);
+}
+
+@font-face {
+    font-family: augusta;
+    src: url(/assets/fonts/De\ Augusta.ttf);
+}
+
+@font-face {
+    font-family: test;
+    src: url(/assets/fonts/test/SummerBerries.otf);
+}
+
+/* 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+} */
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    height: 1.5rem;
+    background-color: transparent;
+
+}
+
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.footer-header {
+
+    background-color: rgba(255, 192, 203, 0);
+    background-color: transparent;
+    border: none;
+}
+
+.footer-header-tabs {
+    background-color: rgb(240, 239, 239);
+    background-color: rgb(243, 192, 255);
+    background: transparent;
+}
+
+.footer-header-tabs:hover {
+    color: rgb(241, 116, 208);
+    ;
+}
+
+.active-footer {
+    background-color: pink;
+    color: hotpink;
+}
+
+#aktivF {
+    background-color: pink;
+    color: hotpink;
+}
+
+/* .nav-link */
+.nav-link-footer {
+    background-color: aquamarine;
+}
+
+.card-body-footer {
+    background-color: #ffbee1;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+#aktivF {
+    background-color: #bed3e5;
+    color: rgb(255, 255, 255);
+    background-color: rgba(162, 105, 146, 0.545);
+    background-color: rgba(162, 105, 146, 0.245);
+    color: #ffbee1;
+    color: white;
+}
+
+#aktivF:hover {
+    background-color: rgb(243, 192, 255);
+
+    color: #ffffff;
+}
+
+#linkF {
+    background-color: rgb(193, 146, 203);
+    color: #ffbee1;
+}
+
+#linkF:hover {
+    background-color: #cce7ff6f;
+    color: #ec94c3;
+}
+
+#pix {
+    /* background-color: rgb(193, 146, 203); */
+    color: #989396;
+}
+
+
+
+.btn-primary-footer {
+    background-color: rgb(171, 216, 255);
+    background-color: rgba(245, 248, 191, 0.726);
+    color: gray;
+    border: none;
+}
+
+.btn-primary-footer:hover {
+    background-color: rgb(243, 192, 255);
+}
+
+.uil-envelope-heart {
+    color: hotpink;
+}
+
+.uil-heart {
+    color: red;
+}
+
+.cardF-title {
+    font-size: small;
+    font-family: futrfw;
+    color: #989396;
+
+}
+
+.cardF-text {
+    font-size: large;
+    font-family: trst;
+    color: #595858;
+}

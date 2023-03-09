@@ -1,0 +1,572 @@
+@font-face {
+    font-family: futrfw;
+    src: url(/assets/fonts/FUTRFW.TTF);
+}
+
+@font-face {
+    font-family: augusta;
+    src: url(/assets/fonts/De\ Augusta.ttf);
+}
+
+@font-face {
+    font-family: likeEat;
+    src: url(/assets/fonts/Like\ Eat.otf);
+}
+
+@font-face {
+    font-family: smile;
+    src: url(/assets/fonts/Smile.otf);
+}
+
+@font-face {
+    font-family: sugar;
+    src: url(/assets/fonts/SugardropBetald.otf);
+}
+
+
+@font-face {
+    font-family: test;
+    src: url(/assets/fonts/test/SummerBerries.otf);
+}
+
+@font-face {
+    font-family: symbols;
+    src: url(/assets/fonts/test/SmileDoodles.otf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    background-image: url(/assets/img/bg.jpg);
+    /* padding: 1rem; */
+    font-family: futrfw;
+    color: white;
+    align-items: center;
+    justify-items: center;
+}
+
+h1 {
+    font-family: futrfw;
+    width: 20px;
+    color: white;
+}
+
+h4 {
+    color: rgb(255, 134, 213);
+    font-size: xx-large;
+    display: inline;
+}
+
+h2 {
+    font-family: test;
+    /* display: inline; */
+    font-size: 60px;
+}
+
+h6 {
+    font-family: symbols;
+
+    font-size: 60px;
+}
+
+.wrapPage {
+    /* background-color: rgb(133, 179, 179); */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: auto; */
+    padding: 2rem;
+    margin: 3rem;
+    margin-top: -5rem;
+    height: 50%;
+}
+
+.mainItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    align-self: center;
+    min-width: 400px;
+    width: 80%;
+    border-radius: 2rem;
+    margin-top: 3.1rem;
+    background-color: rgba(255, 255, 255, 0.283);
+    padding: 1rem;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.helloHotstuff {
+    min-width: 100%;
+    /* height: 100%; */
+    font-family: likeEat;
+    font-family: sugar;
+    /* font-family: augusta; */
+    /* font-size: xxx-large; */
+    /* margin-left: 25rem; */
+    left: 20rem;
+    top: 6rem;
+    position: relative;
+    /* background-color: black; */
+    color: rgb(255, 151, 201);
+    border-width: 15px;
+    border-color: aliceblue;
+    rotate: 9deg;
+}
+
+.helloHotstuff {
+    border-width: 25px;
+    border-color: aliceblue;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 5px #b1eaff, 0 0 10px #94cbff, 0 0 30px #6fbbdb,
+            0 0 20px #f091ef, 0 0 15px #eba0c6,
+            0 0 30px #e28eb8, 0 0 15px #d576a6;
+    }
+
+    to {
+        text-shadow: 0 0 10px #7edfff, 0 0 15px #88cdff, 0 0 20px #ff4da6,
+            0 0 25px #f985bf, 0 0 30px #fc90c6,
+            0 0 33px #f68cc1, 0 0 40px #e686b6;
+    }
+}
+
+/* ---?---- */
+.onTopoffVideo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    /* margin-left: 5rem;
+    margin-top: 6rem; */
+    min-width: 300px;
+    width: fit-content;
+    min-height: 400px;
+    flex-wrap: wrap;
+    text-align: center;
+    /* background-color: aqua; */
+    /* z-index: 3; */
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#text1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin: 10px; */
+    /* margin-right: 4rem; */
+    color: rgb(255, 255, 255);
+    /* margin-left: 8rem;*/
+    padding-top: 0rem;
+    margin-top: -8.5rem;
+    font-size: 4.5rem;
+
+}
+
+#text2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: absolute;
+    /* padding-top: 8rem; */
+    /* margin-left: 5rem; */
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
+    font-family: test;
+    font-size: 2rem;
+}
+
+
+
+
+
+/*& ///DOLL/// */
+
+.space {
+    width: 5rem;
+}
+
+.textDoll {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 45px;
+    width: 250px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+    z-index: 4;
+    position: absolute;
+    /* position: relative; */
+    color: rgb(113, 126, 200);
+
+    /* background-color: antiquewhite; */
+}
+
+
+#feel {
+    color: rgb(113, 126, 200);
+    /* padding-left: 4.5rem; */
+    padding-top: 0rem;
+    left: 35rem;
+    top: 19rem;
+    /* bottom: 7rem; */
+    position: absolute;
+    font-size: 25px;
+}
+
+#fe {
+    left: 5rem;
+    top: 1rem;
+    position: relative;
+    position: absolute;
+    font-size: 33px;
+    rotate: -2deg;
+}
+
+#to {
+    left: 4rem;
+    top: 3.9rem;
+    position: relative;
+    position: absolute;
+    font-size: 30px;
+    rotate: -5deg;
+}
+
+#howdo {
+    color: rgb(113, 126, 200);
+    left: 7.4rem;
+    top: 4.8rem;
+    position: relative;
+    position: absolute;
+    font-size: 35px;
+    rotate: 2deg;
+}
+
+#do {
+    color: rgb(113, 126, 200);
+    left: 9.4rem;
+    top: 9.9rem;
+    position: relative;
+    position: absolute;
+    font-size: 32px;
+    rotate: 5deg;
+}
+
+#you {
+    color: rgb(113, 126, 200);
+    left: 10rem;
+    top: 11.9rem;
+    position: relative;
+    position: absolute;
+    font-size: 38px;
+    rotate: 5deg;
+}
+
+/* 
+.dollWrap {
+    width: auto;
+    background-color: palevioletred;
+    display: flex;
+    margin-top: 5000px;
+    position: absolute;
+} */
+
+.mainDoll {
+    display: flex;
+    max-width: 75%;
+    /* min-width: 500px; */
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    /* top: 45rem; */
+    /* left: 23rem; */
+    z-index: 8;
+    position: relative;
+}
+
+
+
+.containerCarusell {
+    /* top: 3.5rem; */
+    display: flex;
+    width: 500px;
+    position: relative;
+    z-index: 9;
+}
+
+.mainDoll img {
+    width: 500px;
+    height: 500px;
+    z-index: 9;
+}
+
+.carosel-body {
+    display: flex;
+    width: 500px;
+    z-index: 1;
+    background-image: url(/assets/img/face/doll4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    /* background-color: bisque; */
+    object-fit: cover;
+    border-radius: 1rem;
+    left: 5rem;
+}
+
+.karusell {
+    z-index: 2;
+    position: absolute;
+    object-fit: cover;
+    width: 500px;
+    top: 0;
+    left: 5rem;
+    min-height: 572px;
+    /* background-color: aqua; */
+}
+
+#face {
+    background-color: aliceblue;
+}
+
+
+
+
+/* .textDoll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    height: 100%;
+    width: 500px; 
+ bottom: 1rem; 
+background-color: aqua;
+    z-index: 9;
+    position: relative;
+}  */
+
+
+
+/* &-------doll end-------- */
+
+
+.backgroundVideo {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    width: 900px;
+    height: auto;
+    /* background-color: black; */
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    z-index: 1;
+    bottom: 27.4rem;
+}
+
+#background-video {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-size: 800px;
+    border-radius: 2rem;
+    width: 80%;
+    height: 100%;
+    /* align-content: center;
+    justify-content: center; */
+    background-size: cover;
+    /* background-color: aqua; */
+    /* ! text-align: center; */
+    z-index: 1;
+
+    /* margin-top: 15rem; */
+    /* position: relative; */
+    /* top: 1rem; */
+}
+
+
+
+
+
+
+/* footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(/assets/img/footerPink.png);
+    background-size: 100%;
+    width: 120%;
+    justify-self: center;
+    align-self: center;
+} */
+
+.sektion {
+    width: 30rem;
+    height: 21rem;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: -2rem;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    rotate: -9deg;
+    border-radius: 1rem;
+}
+
+.sektion h3 {
+    font-family: augusta;
+    font-size: 50px;
+    color: rgb(255, 132, 212);
+    padding: 1.5rem;
+}
+
+.sektion h6 {
+    padding-left: 1rem;
+    margin-top: 0rem;
+    color: rgb(255, 255, 255);
+}
+
+.sektion h5 {
+    font-family: augusta;
+    /* background-color: antiquewhite; */
+    margin: 30px;
+    margin-right: 5rem;
+    font-size: 30px;
+}
+
+.hrSektion {
+    align-self: center;
+    width: 19rem;
+    margin-left: -10rem;
+}
+
+/* .sektion2 {
+    width: 80%;
+        height: 25rem;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: left;
+        margin-top: 8rem;
+        padding-top: 5rem;
+        margin: 2rem;
+   
+        background-size: cover;
+ 
+        background-color: rgb(186, 222, 235);
+        border-radius: 2rem;
+        position: relative;
+        bottom: 50rem;
+        text-align: center;
+} */
+
+
+
+
+
+.brwrap {
+    background-color: rgba(240, 248, 255, 0.373);
+    /* background-image: url(/assets/img/candy.jpg); */
+    background-size: 50%;
+    background-position: 150%;
+    height: 60%;
+    bottom: 5rem;
+    top: 2rem;
+    border-radius: 5rem;
+}
+
+.sektion2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 1rem;
+    /* height: 50%; */
+}
+
+.sektion2Items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    /* min-width: 400px; */
+    width: 100%;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.283);
+    background-color: rgb(186, 222, 235);
+    margin-top: 4rem;
+    /* padding: 1rem; */
+    height: 35rem;
+}
+
+.sektion2 h3 {
+    font-family: augusta;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+
+}
+
+.helloHot {
+    width: 70%;
+    height: auto;
+    position: relative;
+    bottom: 4.5rem;
+    rotate: -9deg;
+}
+
+/* .sketion3Bg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 35rem;
+    background-image: url(/assets/img/gumm\ \(2\).png);
+    background-size: cover;
+    border-radius: 2rem;
+} */

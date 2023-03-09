@@ -1,0 +1,71 @@
+@font-face {
+    font-family: pinky;
+    src: url(/assets/fonts/261\ Pinky.ttf);
+}
+
+@font-face {
+    font-family: splach;
+    src: url(/assets/fonts/Splash.ttf);
+}
+
+@font-face {
+    font-family: smile;
+    src: url(/assets/fonts/Smile.otf);
+}
+
+body {
+    /* background-color: aquamarine; */
+}
+
+.rubrik {
+    text-align: center;
+    font-family: bubbleGum;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+.flexWrap {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    flex-direction: row;
+    row-gap: 0rem;
+    align-content: center;
+    justify-content: center;
+    /* background-color: rgba(216, 255, 218, 0.257); */
+}
+
+/* 
+.flexItem {
+    width: 100%;
+    background-color: aliceblue;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+} */
+.flexWrap .card {
+
+    margin-bottom: -4rem;
+}
+
+.card {
+    width: 29rem;
+    min-height: 18rem;
+    background-color: rgb(255, 209, 217);
+    background-color: rgba(255, 209, 217, 0.269);
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: 3.4rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    font-family: pinky;
+    font-size: 1.5rem;
+}
+
+.card img {
+    width: auto;
+    min-height: 16rem;
+    border-radius: 1rem;
+}

@@ -1,0 +1,365 @@
+@font-face {
+    font-family: futrfw;
+    src: url(/assets/fonts/FUTRFW.TTF);
+}
+
+.mainHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    /* background-image: url(/assets/img/bg.jpg); */
+    font-family: futrfw;
+    color: white;
+    z-index: 9;
+}
+
+#spanPlupp {
+    display: inline-block;
+    font-family: futrfw;
+    color: pink;
+    width: 1px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 299px;
+    align-self: center;
+    justify-self: center;
+    background-image: url('/assets/img/cutiiie3.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: futrfw;
+    border-radius: 1rem;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(16, 15, 15, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(21, 21, 21, 0.09) 0px 16px 8px, rgba(255, 255, 255, 0.09) 0px 32px 16px; */
+    margin-top: 15px;
+}
+
+
+#headerImg {
+    display: flex;
+    position: relative;
+    margin-bottom: -7rem;
+    margin-left: -11rem;
+    justify-content: flex-end;
+    align-content: flex-end;
+
+}
+
+#headerImg {
+    filter: drop-shadow(0 0 0.75rem rgba(248, 66, 151, 0.761));
+}
+
+.headerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 95%;
+    height: 60%;
+    position: absolute;
+    justify-content: flex-end;
+    align-content: flex-end;
+    position: relative;
+}
+
+.nav-itemH {
+    display: inline-block;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    font-family: futrfw;
+    margin-bottom: -22px;
+    margin-right: 1.8rem;
+}
+
+a h1 {
+    width: 100%;
+    border-radius: 1rem;
+    padding: 4px;
+    margin-top: 7px;
+    padding-top: 2px;
+    font-size: 22px;
+    color: rgb(131, 131, 131);
+}
+
+a h1:hover {
+    color: rgb(255, 174, 214);
+    color: rgb(255, 255, 255);
+    /* background-color: rgba(255, 255, 255, 0.246); */
+    border-radius: 1rem;
+    transition: background 0.3s ease-in-out;
+}
+
+
+
+
+/*& =================hamburger-men======== */
+/* .menuContainer {
+    font-family: futrfw;
+    padding-right: -8rem;
+    margin: 0.7rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    width: 88%;
+    position: relative;
+    position: sticky;
+} */
+
+
+.menuContainer {
+    font-family: futrfw;
+    padding-right: -8rem;
+    margin: 0.7rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    width: 88%;
+}
+
+.menuContainer button {
+    /* position: static; */
+    width: 100%;
+    font-size: 15px;
+    /* background-color: rgba(255, 255, 255, 0.258); */
+}
+
+.logdiv {
+    border-radius: 1rem;
+    background-color: rgba(255, 235, 254, 0.539);
+    border-radius: 0.7rem;
+    border-style: dotted;
+    border-color: rgb(247, 240, 228);
+    width: fit-content;
+    margin: 10px;
+}
+
+.logo {
+    color: rgba(86, 100, 147, 0.639);
+    font-size: 25px;
+    font-family: futrfw;
+}
+
+.logo:hover {
+    color: rgb(255, 116, 218);
+}
+
+
+.mButton {
+    color: rgb(248, 248, 248);
+    /* background-color: rgba(240, 248, 255, 0.435); */
+    width: 50px;
+    color: transparent;
+    border: 0px;
+}
+
+.nav-linkH {
+    color: rgb(85, 76, 88);
+    margin: 1rem;
+    font-size: 100px;
+    /* font-family: futrfw; */
+    /* background-color: rgba(240, 248, 255, 0.435); */
+}
+
+.nav-link:hover {
+    color: rgb(255, 104, 149);
+    filter: brightness(110%);
+    filter: drop-shadow(0 0 0.75rem rgba(248, 66, 151, 0.761));
+}
+
+.nav-item {
+    /* background-color: rgba(235, 255, 255, 0.133); */
+    gap: 0px;
+    justify-content: space-evenly;
+    width: fit-content;
+    margin-right: 1%;
+    display: inline-flex;
+    font-size: 10px;
+}
+
+
+nav {
+    width: 50%;
+    height: 50px;
+    /* align-content: baseline;
+    justify-content: baseline; */
+    /* position: relative;
+    position: sticky; */
+    display: block;
+    display: contents;
+    position: fixed;
+    right: -4rem;
+    z-index: 5;
+    /* background-color: aquamarine; */
+}
+
+/* .space {
+    display: flex;
+    /* position: absolute; 
+    z-index: 8;
+    height: 10rem;
+    background-color: rgba(0, 255, 255, 0.583);
+} */
+
+/* .show {
+    background-color: #e17cea16;
+    border-radius: 5px;
+
+} */
+
+/* 
+#collapsibleNavbar {
+    color: rgb(144, 127, 255);
+    background-color: rgb(13, 43, 43);
+}
+ */
+
+nav-item a {
+    font-size: 10px;
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! =============
+
+/* .hamburgerContainer {
+    display: flex;
+    width: 80%;
+    height: 90%; */
+/* margin-top: -18rem; */
+/* background-color: #ff375c55; */
+/* justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 1rem;
+} */
+/* 
+#menu {
+    z-index: 2;
+}
+
+#menu-bar {
+    width: 40px;
+    height: 10px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: #ffb4c0;
+    display: block;
+    border-radius: 50px;
+    transition: 0.3s ease;
+
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+.nav {
+    transition: 0.3s ease;
+    display: none;
+}
+
+.nav ul {
+    padding: 0 0px;
+}
+
+.nav li {
+    list-style: none;
+    padding: 0px 0;
+}
+
+.nav li a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: futrfw;
+}
+
+.nav li a:hover {
+    font-weight: bold;
+}
+
+.menu-bg,
+#menu {
+    top: -10%;
+    left: 80%;
+    position: absolute;
+}
+
+.menu-bg {
+    z-index: 1;
+    width: 0rem;
+    height: 0;
+    margin: 30px 50px 10px 40px;
+    background: ra-dial-gradient(circle, #f8a4b300, #e4c7cd00);
+    border-radius: 30%;
+    transition: 0.3s ease;
+
+}
+
+.change {
+    display: block;
+}
+
+.change .bar {
+    background-color: white;
+}
+
+.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+    opacity: 0;
+}
+
+.change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+    width: 220px;
+    height: 260px;
+    transform: translate(-40%, -10%);
+} */
+
+/* @media (max-width: 768px) {
+    .hamburgerContainer {
+        opacity: 0.95;
+    }  */
